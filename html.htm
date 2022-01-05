@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang"en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name"viewpoint"content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+</head>
+<body>
+<hr>	<title>Learning html Not Easy</title>
+
+
+<style>
+
+h1{	
+	font-size: 50px;
+	text-align:center;
+	font-size:200%
+	font-family:verdana;
+}
+
+a:visited {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+</style>
+</head>
+
+
+
+<h1>Jesh Wei</h1>
+
+<body style = "background-color: yellow;">
+
+	<h3 style = "font-family:verdana;">Learning HTML</h1>
+	<p>can visit this link:</p>
+	<p><a href = "https://www.w3schools.com/tags/default.asp">Visit W3School></a></p>
+
+<pre>
+	<h3>Image is a botton to go through the link </h3><p><b>Just <mark>click</mark>it</p>
+	<a href = "https://www.w3schools.com/tags/default.asp"><img src = "https://imgix.bustle.com/uploads/image/2020/5/11/49197366-afef-4a82-ad40-8005ee2f07da-da0c9321-c21e-418e-a012-0b4b0c8a15e9-shutterstock-1233307138.jpg?w=800&fit=crop&crop=faces&auto=format%2Ccompress"  
+	alt="HTML tutorial" style="width:42px;height:42px;"></a>
+
+<br>
+<br>
+<address>
+<p>Written by <sub>Jesh Wei</sub><br></p>  <p>Gmail:<br>szeweielsa@gmail.com<br></p>
+</address>
+
+
+
+
+    <h2>Ordered and Unordered List</h2>
+
+    <ul>
+        <li>apples
+            <ol>
+                <li>delicious</li>
+                <li>red</li>
+                <li>juicy</li>
+            </ol>
+        </li>
+        <li>oranges</li>
+        <li>pineapples</li>
+        <li>mangoes</li>
+        <li>dragonfruits</li>
+    </ul>  
+
+<p>Small Table</p>
+
+<table border="5" cellpadding="5" cellspacing="0">
+<tr>
+    <td></td>
+    <th>Country</th>
+    <th colspan="2">Daily Cases</th>
+    <th>Daily Deaths</th>
+    <th>Daily Vacination Doses</th>
+</tr>
+
+<tr>
+    <td rowspan="3">High Risk</td>
+    <td>Malaysia</td>
+    <td>3200/td>
+    <td>10000</td>  
+    <td>60</td>
+    <td>35000</td>
+</tr>
+
+<tr>
+    <td>India</td>
+    <td>1500</td>
+    <td>12000</td> 
+    <td>30</td>
+    <td>30000</td>
+</tr>
+
+<tr>
+    <td>United Stated</td>
+    <td>2300</td>
+    <td>15000</td> 
+    <td>40</td>
+    <td>50000</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+<hr>
+<h1>Timetable</h1>
+
+
+<style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    
+    th{ 
+        text-align:center;
+    }
+    
+    th,td {
+        text-align:left;
+        padding:10px;
+    }
+    
+    tr:nth-child(odd){
+        background-color: #D6EEEE;
+    }
+    
+    tr {
+        bordercolor="black";
+        style="width:70%;
+    }
+    
+    tr:hover {background-color: #D6EEEE;}
+    
+    </style>
+
+    
+
+    <h2 style= "font-family:verdana;">Daily Timetable</h2>
+    
+    <!--To set the width of a table-->
+    <table style= "width:70%">
+    
+    <!--To add a caption to a table,-->
+        <caption style= "font-family:arial black">Schedule</caption>
+    
+    <!--colgroup used as a container for the column specifications should be put after caption, before tr,td-->
+    <!--span attribute specifies how many columns that gets the style-->
+    <colgroup>
+        <col span="1" style= "background-color: powderblue">
+        <col span="1" style= "background-color: lightgreen">
+    </colgroup>
+    
+    <!-- To make a cell span over multiple columns-->
+        <tr style= "text-align:center;">
+          <th colspan="2">Subject</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+          <th>Sunday</th>
+        </tr>
+    
+    <!-- To set the height of a specific row-->
+    <!-- To make a cell span over multiple rows-->
+        <tr style="width:200px">
+          <th rowspan="2">English</th>
+          <th>Vocabulary</th>
+          <td>VOC 1</td>
+          <td>VOC 2</td>
+          <td>VOC 3</td>
+          <td>VOC 4</td>
+          <td>VOC 5</td>
+          <td>VOC 6</td>
+          <td style = "background-color:lightgrey;"></td>
+        </tr>
+    
+        <tr>
+          <th>Grammar</th>
+          <td>GRAM 1</td>
+          <td>GRAM 2</td>
+          <td>GRAM 3</td>
+          <td>GRAM 4</td>
+          <td>GRAM 5</td>
+          <td>GRAM 6</td>
+          <td>GRAM 7</td>
+        </tr>
+    
+        <tr>
+          <th rowspan="2">Downstairs</th>
+          <th>Korean</th>
+          <td>Hangulwords 1-10</td>
+          <td>Numering 1-10</td>
+          <td>Hangulwords 11-20</td>
+          <td>Numering 11-20</td>
+          <td>Hangulwords 31-40</td>
+          <td>Numering 21-30</td>
+          <td style = "background-color:lightgrey;"></td>
+        </tr>
+    
+        <tr>
+          <th>Jepun</th>
+          <td>Kanji 1</td>
+          <td>Katakana 1</td>
+          <td>KK1</td>
+          <td>KK2</td>
+          <td>Kanji 2</td>
+          <td>Katakana 2</td>
+          <td>KK3/td>
+        </tr>
+    
+        <tr>
+          <th>Sepanyol</th>
+          <th>Conversation</th>
+          <td style = "background-color:lightgrey;"></td>
+          <td>Phrases</td>
+          <td style = "background-color:lightgrey;"></td>
+          <td>C0110</td>
+          <td style = "background-color:lightgrey;"></td>
+          <td>C0220</td>
+          <td style = "background-color:lightgrey;"></td>
+        </tr>
+    
+        <tr>
+          <th>Mandarin</th>
+          <th>Conversation</th>
+          <td>Numering 101</td>
+          <td>Numering 102</td>
+          <td>Numering 103</td>
+          <td>Numering 104</td>
+          <td>Numering 105</td>
+          <td>Numering 106</td>
+          <td style = "background-color:lightgrey;"></td>
+        </tr>
+    
+        <tr>
+          <th>Thai</th>
+          <td>Thai 1</td>
+          <td>Lesson 1</td>
+          <td style = "background-color:lightgrey;"></td>
+          <td>Lesson 2</td>
+          <td>Lesson 3</td>
+          <td>Lesson 4</td>
+          <td>Lesson 5</td>
+          <td>Lesson 6</td>
+        </tr>
+    
+    
+</table>
+
+
+
+
+
+
+
+
+
+<hr>
+   
+<h1 style= "font-size:200%;"></h1>
+
+<h1><ins>Papan Tanda Lalu Lintas</ins><h1>
+</head>
+
+</style>
+
+<body style= "font-size: 100%", "text-align:left;">
+<h1>An Unordered HTML List</h1>
+<div class="papan tanda">
+<ul>
+<li>Berhenti Di Persimpangan</li>
+ <li>Dilarang Belok Ke Kiri</li>
+ <li>Dilarang belok ke kanan</li>
+ <li>Dilarang Berpusing Balik</li>
+ <li>Kenderaan Dilarang Masuk</li>
+ <li>Kenderaan Melebihi 8tan Dilarang Masuk</li>
+ <li>Kenderaan Melebihi 3.5m Tinggi Dilarang Masuk</li>
+ <li>Kenderaan Jenis Ini Dilarang Masuk</li>
+ <li>Motosikal Dilarang Masuk</li>
+ <li>Had Laju Tamat</li>
+ <li>Dilarang Meletak Kenderaan</li>
+ <li>Dilarang Berhenti</li>
+ <li>Dilarang Berbunyi Hon</li>
+ <li>Beri Laluan</li>
+</ul>
+</div>
+
+<h4>An Ordered HTML List</h4>
+<div>
+<ol>
+ <li>Kenderaan Melebihi 2.5m Lebar Dilarang Masuk</li>
+ <li>Berhenti Kanak-kanak Melintas</li>
+ <li>Dilarang Memotong</li>
+ <li>Ikut Arah</li>
+ <li>Jalan Terus Sahaja</li>
+ <li>Jalan Terus Atau Belok Ke Kanan Sahaja</li>
+ <li>Belok Ke Kiri Sahaja</li>
+ <li>Lorong basikal Sahaja</li>
+ <li>Lorong Motosikal Sahaja</li>
+ <li>Zon Tunda</li>
+ <li>Padang Permainan</li>
+ <li>Bongkol Di Hadapan</li>
+ <li>Jalan Tidak Rata</li>
+ <li>Simpang Jalan Ke Kiri Dan Ke Kanan</li>
+</ul>
+</div>
+
+<h4>Unordered List with Disc Bullets</h4>
+<div>
+<ul style="list-style-type:disc;">
+ <li>Liku Tajam</li>
+ <li>Simpang Empat</li>
+ <li>Lintasan Kereta Api Berpagar</li>
+ <li>Lintasan Kereta Api Berpagar Automatik</li>
+ <li>Lintasan Kereta Api Tanpa Pagar</li>
+ <li>Cerun Menurun</li>
+ <li>Cerun Meningkat</li>
+ <li>Liku Kiri</li>
+ <li>Liku Kanan</li>
+ <li>Jalan Bengkak-Bengkok</li>
+ <li>Bahu Jalan Lembut</li>
+ <li>Jalan Licin</li>
+ <li>Lintasan Pejalan Kaki</li>
+ <li>Lintasan Kanak-kanak Melintas</li>
+ <li>Berhati-hati</li>
+</ul>
+</div>
+
+<h4>Unordered List with Circle Bullets</h4>
+<div>
+<ul style="list-style-type:circle;">
+ <li>Papan Tanda Berhenti Di Hadapan</li>
+ <li>Papan Tanda Beri Laluan Di Hadapan</li>
+ <li>Jalan Sempit Di Hadapan</li>
+ <li>Jalan Semakin Sempit</li>
+ <li>Lampu Isyarat Di Hadapan</li>
+ <li>Halangan Di Hadapan</li>
+ <li>Simpang Tak Serentak</li>
+ <li>Simpang Tak Serentak Dengan Satu Jalan Ditutup</li>
+ <li>Simpang Tiga</li>
+ <li>Simpang Kanan</li>
+ <li>Simpang Kiri</li>
+ <li>Jalan Menyimpang Di Sebelah Kanan</li>
+ <li>Jalan Menyimpang Di Sebelah Kiri</li>
+ <li>Jalan Kecil Bercantum Di Sebelah Kanan</li>
+ <li>Jalan Kecil Bercantum Di Sebelah Kiri</li>
+</ul>
+</div>
+
+<h4>Unordered List with Square Bullets</h4>
+<div>
+<ul style="list-style-type:square;">
+ <li>Kawasan Tanah Runtuh</li>
+ <li>Kawasan Lembu Melintas</li>
+ <li>Bulatan Di Hadapan</li>
+ <li>Lorong Meningkat</li>
+ <li>Lorong Menurun</li>
+ <li>Orang Tua Melintas</li>
+ <li>Lintasan Orang Cacat</li>
+ <li>Jabatan Sempit</li>
+ <li>Berpisah Arah</li>
+ <li>Jalan Dua Hala</li>
+ <li>Jalan Kembar Tamat</li>
+ <li>Jalan Kembar Di Hadapan</li>
+ <li>Stesen Jambatan Timbang</li>
+ <li>Kawasan Binatang Liar Melintas</li>
+ <li>Tanda Halangan</li>
+</ul>
+</div>
+
+<h4>A Nested List</h4>
+<div>
+<ul>
+ <li>Tanda Arah Selekoh Ke Kanan</li>
+ <li>Tanda Arah Selekoh Ke Kiri</li>
+ <li>Zon Had Laju Di Hadapan</li>
+ <li>Peringatan Di Zon Had Laju</li>
+ <li>Perhentian Bas</li>
+ <li>Telefon Awam</li>
+	<ul>
+ 	 	<li>Tempat Meletak Kenderaan</li>
+ 	 	<li>Pusat Kesihatan</li>
+ 	 	<li>Hospital</li>
+ 	 	<li>Stesen Minyak</li>
+	</ul>
+ <li>Jalan Mati</li>
+ <li>Dibenarkan Berpusing Balik</li>
+ <li>Jalan Sedang Diperbaiki</li>
+ <li>Lencongan</li>
+ <li>Jalan Melencong Selekoh Tajam</li>
+</ul>
+</div>
+
+<h4>Unordered List without Bullet</h4>
+<div>
+<ul style="list-style-type:none;">
+ <li>Papan Tanda Tempat Tuju</li>
+ <li>Papan Tanda Tunjuk Arah</li>
+ <li>Papan Tanda Tunjuk Arah Dengan Papan Tanda Kawasan Pelancongan</li>
+</ul>
+</div>
+
+<h4>A Description List</h4>
+<div>
+<dl>
+ <dt>Dilarang Meletak Kenderaan</dt>
+ <dd>Satu Garisan</dd>
+ <dt>Dilarang Berhenti</dt>
+ <dd>Pangkal Garisan</dd>
+</dl>
+</div>
+
+
+
+
+<h4>The span element</h4>
+
+<p>You don't always need a <span style="color:blue;font-weight:bold">plan</span>. Sometimes you just need to breathe, trust, let go and <span 
+style="color:darkolivegreen;font-weight:bold">see what happens</span>.</p>
+<q>Gambateh</q>
+
+
+
+
+
+
+
+<hr>
+<h1 id="help">Are u feel Stress?</h1>
+<button onclick="displayResult()">Click it. The text will change</button>
+
+<script>
+function displayResult() {
+  document.getElementById("help").innerHTML = "Cheer Up!";
+}
+</script>
+</body>
+</html>
