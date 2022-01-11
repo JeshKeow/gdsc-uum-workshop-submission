@@ -1,0 +1,26 @@
+package com.codejava.Array;
+
+public class Array {
+    public static void main(String[] args) {
+        String[] fullName= {"Keow", "Sze Wei"};
+
+        //print array using each loop
+        for(int i=0; i < fullName.length; i++) {
+            System.out.println(fullName[i]);
+        }
+
+    }
+}
+
+public class If {
+    public static void main(String[] args) {
+        int myAge = 15;
+        int theirAge = 20;
+
+        if (myAge <= theirAge) {
+            System.out.println("I am younger");
+        } else {
+            System.out.println("I am older");
+        }
+    }
+}
